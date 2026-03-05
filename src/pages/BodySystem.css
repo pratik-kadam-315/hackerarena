@@ -1,0 +1,240 @@
+.body-system-page {
+    position: relative;
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 100px 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#bgc {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+}
+
+.body-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.page-title {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--ink);
+}
+
+.page-subtitle {
+    color: var(--ink2);
+    margin-bottom: 3.5rem;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.body-image-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 28px;
+    background: var(--surface);
+    padding: 50px;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+}
+
+.main-body-img {
+    width: auto;
+    max-width: 850px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.08));
+}
+
+/* HOTSPOT CIRCLES */
+.hotspot-circle {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    background: rgba(46, 125, 107, 0.08);
+    border: 2px solid rgba(46, 125, 107, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 10;
+}
+
+.hotspot-circle:hover {
+    background: rgba(46, 125, 107, 0.2);
+    border-color: var(--accent);
+    transform: scale(1.25);
+    box-shadow: 0 0 25px rgba(46, 125, 107, 0.25);
+}
+
+/* PULSE EFFECT */
+.pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 125, 107, 0.25);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: ripple 2.5s infinite;
+    pointer-events: none;
+}
+
+@keyframes ripple {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(2.2);
+        opacity: 0;
+    }
+}
+
+/* COORDINATES */
+.heart {
+    top: 15.5%;
+    left: 20.5%;
+}
+
+.liver {
+    top: 31%;
+    left: 20.5%;
+}
+
+.pancreas {
+    top: 47%;
+    left: 20.5%;
+}
+
+.kidney {
+    top: 62.5%;
+    left: 20.5%;
+}
+
+.intestines {
+    top: 78.5%;
+    left: 20.5%;
+}
+
+.brain {
+    top: 15.5%;
+    right: 19.5%;
+}
+
+.lungs {
+    top: 31%;
+    right: 19.5%;
+}
+
+.spleen {
+    top: 47%;
+    right: 19.5%;
+}
+
+.stomach {
+    top: 63%;
+    right: 19.5%;
+}
+
+/* POPUP */
+.qr-popup {
+    position: fixed;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    z-index: 100;
+    animation: slideIn 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) translateX(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(-50%) translateX(0);
+    }
+}
+
+.popup-content {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border);
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+}
+
+.qr-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    background: white;
+    padding: 12px;
+    border: 1px solid var(--border);
+}
+
+.popup-label {
+    margin-top: 15px;
+    font-weight: 600;
+    color: var(--accent);
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 1200px) {
+    .qr-popup {
+        top: auto;
+        bottom: 30px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(50%) translateY(40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(50%) translateY(0);
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .body-system-page {
+        padding-top: 120px;
+    }
+
+    .main-body-img {
+        max-width: 100%;
+    }
+
+    .body-image-wrapper {
+        padding: 20px;
+    }
+
+    .hotspot-circle {
+        width: 40px;
+        height: 40px;
+    }
+}

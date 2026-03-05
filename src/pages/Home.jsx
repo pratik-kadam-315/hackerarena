@@ -219,8 +219,8 @@ function Home() {
             {/* FOOTER */}
             <footer className="main-footer">
                 <Link to="/" className="logo">AR<span className="logo-dot">·</span>Anatomy</Link>
-                <span>Built for medical students · Powered by WebAR</span>
-                <span>© 2025 AR‑Anatomy</span>
+                <span>Built for medical students · Powered by Vertices</span>
+                <span>© 2026 AR‑Anatomy</span>
             </footer>
         </div>
     );
