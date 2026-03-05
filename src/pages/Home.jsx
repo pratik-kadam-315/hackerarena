@@ -193,14 +193,14 @@ function Home() {
                 <div className="sec-eyebrow">AR Modules</div>
                 <h2 className="sec-title">Choose your organ.</h2>
                 <div className="organs-row">
-                    <Link to="/learning" className="organ-card"><span>🫀</span><span>Heart</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🧠</span><span>Brain</span></Link>
-                    <Link to="/learning" className="organ-card"><span>👁</span><span>Eye</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🫁</span><span>Lungs</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🟤</span><span>Liver</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🫘</span><span>Kidney</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🔵</span><span>Pancreas</span></Link>
-                    <Link to="/learning" className="organ-card"><span>🔄</span><span>Digestive</span></Link>
+                    <Link to="/learning#heart" className="organ-card"><span>🫀</span><span>Heart</span></Link>
+                    <Link to="/learning#brain" className="organ-card"><span>🧠</span><span>Brain</span></Link>
+                    <Link to="/learning#eye" className="organ-card"><span>👁</span><span>Eye</span></Link>
+                    <Link to="/learning#lungs" className="organ-card"><span>🫁</span><span>Lungs</span></Link>
+                    <Link to="/learning#liver" className="organ-card"><span>🟤</span><span>Liver</span></Link>
+                    <Link to="/learning#kidney" className="organ-card"><span>🫘</span><span>Kidney</span></Link>
+                    <Link to="/learning#pancreas" className="organ-card"><span>🔵</span><span>Pancreas</span></Link>
+                    <Link to="/learning#digestive" className="organ-card"><span>🔄</span><span>Digestive</span></Link>
                 </div>
             </section>
 

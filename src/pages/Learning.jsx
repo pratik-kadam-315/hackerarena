@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import BodySection from '../components/BodySection';
 
 function Learning() {
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const element = document.getElementById(hash.substring(1));
+            if (element) {
+                // Smooth scroll after a short delay to ensure rendering is complete
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+    }, [hash]);
+
     return (
         <>
             <BodySection
+                id="eye"
                 title="Human Eye - Visual System"
                 description={
                     <>
@@ -78,6 +94,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="heart"
                 title="Human Heart - Cardiovascular System"
                 description={
                     <>
@@ -150,11 +167,12 @@ function Learning() {
                     </>
                 }
                 diagramUrl="/heart.png"
-                arImageUrl="/eyeqr.png"
+                arImageUrl="/heart_qrr.jpeg"
             />
             <div className="section-divider" />
 
             <BodySection
+                id="lungs"
                 title="Lungs - Respiratory System"
                 description={
                     <>
@@ -215,6 +233,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="digestive"
                 title="Intestine - Digestive System"
                 description={
                     <>
@@ -269,6 +288,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="kidney"
                 title="Kidney - Urinary System"
                 description={
                     <>
@@ -320,6 +340,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="brain"
                 title="Brain - Nervous System"
                 description={
                     <>
@@ -377,6 +398,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="liver"
                 title="Liver - Digestive System"
                 description={
                     <>
@@ -428,6 +450,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="pancreas"
                 title="Pancreas - Digestive & Endocrine System"
                 description={
                     <>
@@ -497,6 +520,7 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
+                id="stomach"
                 title="Stomach - Digestive System"
                 description={
                     <>

@@ -3,7 +3,7 @@ import DiagramCard from './DiagramCard';
 import ARCard from './ARCard';
 import './BodySection.css';
 
-const BodySection = ({ title = "Body Part Name", description, diagramUrl, arImageUrl }) => {
+const BodySection = ({ id, title = "Body Part Name", description, diagramUrl, arImageUrl }) => {
     const [isSpeaking, setIsSpeaking] = useState(false);
     const [synth, setSynth] = useState(null);
     const [voices, setVoices] = useState([]);
@@ -79,7 +79,7 @@ const BodySection = ({ title = "Body Part Name", description, diagramUrl, arImag
     };
 
     return (
-        <section className="body-section">
+        <section id={id} className="body-section">
             <div className="section-container">
                 {/* Left Side (60%) */}
                 <div className="content-left">
