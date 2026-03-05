@@ -10,7 +10,7 @@ const DiagramCard = ({ imageUrl }) => {
                     <img
                         src={imageUrl}
                         alt="Diagram"
-                        style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'cover' }}
+                        style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'contain' }}
                     />
                 ) : (
                     <span>2D Diagram Placeholder</span>

@@ -150,7 +150,7 @@ function Learning() {
                     </>
                 }
                 diagramUrl="/heart.png"
-                arImageUrl="/heart.png"
+                arImageUrl="/eyeqr.png"
             />
             <div className="section-divider" />
 
@@ -210,7 +210,7 @@ function Learning() {
                     </>
                 }
                 diagramUrl="/lungs.png"
-                arImageUrl="/heart.jpg"
+                arImageUrl="/eyeqr.png"
             />
             <div className="section-divider" />
 
@@ -494,7 +494,7 @@ function Learning() {
                 arImageUrl="/pancreas_qr.png"
             />
 
-            <div className="section-divider" /> */}
+            <div className="section-divider" />
 
             <BodySection
                 title="Stomach - Digestive System"

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Learning from './pages/Learning';
+import About from './pages/About';
 import './App.css';
 
 function App() {
@@ -14,13 +15,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/learning" element={<Learning />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
-        <footer className="footer">
-          <div className="container">
-            <p>&copy; 2026 Smart MedAR. All rights reserved.</p>
-          </div>
-        </footer>
       </div>
     </BrowserRouter>
   );

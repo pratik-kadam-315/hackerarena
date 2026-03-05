@@ -10,7 +10,7 @@ const ARCard = ({ arImageUrl }) => {
                     <img
                         src={arImageUrl}
                         alt="AR Marker"
-                        style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'cover' }}
+                        style={{ width: '100%', height: '100%', borderRadius: '12px', objectFit: 'contain' }}
                     />
                 ) : (
                     <div className="ar-content">

@@ -1,8 +1,48 @@
-body {
+:root {
+  --bg: #f7f5f2;
+  --surface: #ffffff;
+  --surface2: #f0ede8;
+  --border: #e4dfd8;
+  --ink: #1a1612;
+  --ink2: #6b6460;
+  --ink3: #9e9994;
+  --accent: #2e7d6b;
+  --accent2: #d4572a;
+  --accent-light: #e8f4f0;
+  --accent-pale: #fef0eb;
+  --shadow: 0 1px 3px rgba(26, 22, 18, 0.06), 0 4px 16px rgba(26, 22, 18, 0.07);
+  --shadow-lg: 0 8px 40px rgba(26, 22, 18, 0.1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
 #root {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
 }
