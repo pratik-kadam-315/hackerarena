@@ -269,86 +269,288 @@ function Learning() {
             <div className="section-divider" />
 
             <BodySection
-                title="Lungs - Respiratory System"
+                title="Kidney - Urinary System"
                 description={
                     <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
+                        <h3>Overview</h3>
+
+                        <p>
+                            The kidneys are two bean-shaped organs located in the posterior abdominal
+                            cavity on either side of the vertebral column. They are vital components
+                            of the urinary system and are primarily responsible for filtering blood,
+                            removing metabolic waste, and maintaining fluid and electrolyte balance.
+                        </p>
+
+                        <p>
+                            Each kidney contains approximately one million functional units called
+                            nephrons. Nephrons filter blood to remove waste products such as urea,
+                            creatinine, and excess salts, forming urine in the process.
+                        </p>
+
+                        <p>
+                            The kidney is divided into three main regions: the renal cortex,
+                            renal medulla, and renal pelvis. Blood enters the kidney through the
+                            renal artery and leaves through the renal vein after filtration.
+                            The produced urine flows from the kidneys through the ureters to
+                            the urinary bladder for storage.
+                        </p>
+
+                        <p>
+                            In addition to waste removal, the kidneys play an essential role in
+                            regulating blood pressure, maintaining acid–base balance, and
+                            producing important hormones such as erythropoietin (which stimulates
+                            red blood cell production) and renin (which helps regulate blood pressure).
+                        </p>
+
+                        <h3>Functions</h3>
+                        <ul>
+                            <li>Filters blood to remove metabolic waste</li>
+                            <li>Forms and excretes urine</li>
+                            <li>Maintains fluid and electrolyte balance</li>
+                            <li>Regulates blood pressure</li>
+                            <li>Maintains acid–base balance (pH control)</li>
+                            <li>Produces hormones (erythropoietin and renin)</li>
+                            <li>Regulates red blood cell production</li>
+                        </ul>
                     </>
                 }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
+                diagramUrl="/kidney.png"
+                arImageUrl="/kidney_qr.png"
             />
             <div className="section-divider" />
 
             <BodySection
-                title="Lungs - Respiratory System"
+                title="Brain - Nervous System"
                 description={
                     <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
+                        <h3>Overview</h3>
+
+                        <p>
+                            The brain is the central organ of the nervous system and serves as the
+                            control center of the human body. It is responsible for processing
+                            sensory information, regulating bodily functions, and enabling higher
+                            cognitive abilities such as thinking, memory, learning, and decision-making.
+                        </p>
+
+                        <p>
+                            The brain is located within the cranial cavity and is protected by the
+                            skull, meninges, and cerebrospinal fluid (CSF). It weighs approximately
+                            1.3 to 1.5 kilograms in adults and contains billions of neurons that
+                            communicate through electrical and chemical signals.
+                        </p>
+
+                        <h4>Main Parts of the Brain</h4>
+                        <ul>
+                            <li>Cerebrum – Responsible for thinking, memory, voluntary movement, and sensory processing</li>
+                            <li>Cerebellum – Coordinates balance, posture, and fine motor control</li>
+                            <li>Brainstem – Controls vital functions such as breathing, heart rate, and blood pressure</li>
+                        </ul>
+
+                        <p>
+                            The cerebrum is divided into two hemispheres and four lobes:
+                            frontal, parietal, temporal, and occipital. Each lobe performs
+                            specialized functions such as motor control, sensation, language,
+                            and vision.
+                        </p>
+
+                        <p>
+                            The brain communicates with the rest of the body through the spinal cord
+                            and peripheral nerves. It continuously processes incoming sensory signals
+                            and generates appropriate responses.
+                        </p>
+
+                        <h3>Functions</h3>
+                        <ul>
+                            <li>Controls voluntary and involuntary body movements</li>
+                            <li>Processes sensory information (vision, hearing, touch, taste, smell)</li>
+                            <li>Regulates breathing and heart rate</li>
+                            <li>Enables thinking, reasoning, and decision-making</li>
+                            <li>Stores memory and supports learning</li>
+                            <li>Maintains balance and coordination</li>
+                            <li>Regulates emotions and behavior</li>
+                        </ul>
                     </>
                 }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
+                diagramUrl="/brain.png"
+                arImageUrl="/brain_qr.png"
             />
             <div className="section-divider" />
 
             <BodySection
-                title="Lungs - Respiratory System"
+                title="Liver - Digestive System"
                 description={
                     <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
+                        <h3>Overview</h3>
+
+                        <p>
+                            The liver is the largest internal organ and one of the most vital organs
+                            in the human body. It is located in the upper right quadrant of the
+                            abdominal cavity, just below the diaphragm. The liver plays a central
+                            role in metabolism, detoxification, digestion, and nutrient storage.
+                        </p>
+
+                        <p>
+                            The liver is divided into right and left lobes and is composed of
+                            functional units called lobules. It receives blood from two major
+                            sources: the hepatic artery (oxygenated blood) and the portal vein
+                            (nutrient-rich blood from the digestive tract).
+                        </p>
+
+                        <p>
+                            One of the liver’s key functions is the production of bile, a substance
+                            that helps in the digestion and absorption of fats in the small intestine.
+                            The liver also processes carbohydrates, proteins, and lipids, converting
+                            them into usable forms for the body.
+                        </p>
+
+                        <p>
+                            In addition, the liver detoxifies harmful substances, metabolizes drugs,
+                            stores vitamins (A, D, E, K, and B12), and regulates blood glucose levels
+                            by storing and releasing glycogen as needed.
+                        </p>
+
+                        <h3>Functions</h3>
+                        <ul>
+                            <li>Produces bile for fat digestion</li>
+                            <li>Detoxifies harmful substances and drugs</li>
+                            <li>Regulates blood glucose levels</li>
+                            <li>Stores vitamins and minerals</li>
+                            <li>Metabolizes carbohydrates, proteins, and fats</li>
+                            <li>Produces important plasma proteins (e.g., albumin)</li>
+                            <li>Breaks down old red blood cells</li>
+                            <li>Supports immune function</li>
+                        </ul>
                     </>
                 }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
+                diagramUrl="/liver.png"
+                arImageUrl="/liver_qr.png"
             />
             <div className="section-divider" />
 
             <BodySection
-                title="Lungs - Respiratory System"
+                title="Pancreas - Digestive & Endocrine System"
                 description={
                     <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
+                        <h3>The Pancreas</h3>
+
+                        <p>
+                            The pancreas is a soft, elongated gland located behind the stomach in the
+                            upper abdomen. It plays a dual role in the body by functioning as both an
+                            exocrine gland (digestive system) and an endocrine gland (hormonal system).
+                        </p>
+
+                        <p>
+                            The pancreas is divided into three main parts: the head, body, and tail.
+                            It is closely associated with the duodenum (first part of the small intestine).
+                        </p>
+
+                        <h3>Digestive (Exocrine) Function</h3>
+
+                        <p>
+                            The pancreas produces pancreatic juice containing digestive enzymes such as:
+                        </p>
+
+                        <ul>
+                            <li>Amylase – breaks down carbohydrates</li>
+                            <li>Lipase – breaks down fats</li>
+                            <li>Proteases (trypsin, chymotrypsin) – break down proteins</li>
+                        </ul>
+
+                        <p>
+                            These enzymes are released into the duodenum through the pancreatic duct
+                            and help in the chemical digestion of food.
+                        </p>
+
+                        <h3>Hormonal (Endocrine) Function</h3>
+
+                        <p>
+                            The pancreas contains clusters of cells called the Islets of Langerhans,
+                            which secrete important hormones directly into the bloodstream.
+                        </p>
+
+                        <ul>
+                            <li>Insulin – lowers blood glucose levels</li>
+                            <li>Glucagon – increases blood glucose levels</li>
+                            <li>Somatostatin – regulates other hormones</li>
+                        </ul>
+
+                        <p>
+                            By regulating blood sugar levels, the pancreas plays a crucial role in
+                            maintaining metabolic balance and energy supply in the body.
+                        </p>
+
+                        <h3>Functions</h3>
+
+                        <ul>
+                            <li>Produces digestive enzymes</li>
+                            <li>Regulates blood sugar levels</li>
+                            <li>Maintains glucose homeostasis</li>
+                            <li>Supports digestion in the small intestine</li>
+                            <li>Secretes important metabolic hormones</li>
+                        </ul>
                     </>
                 }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
+                diagramUrl="/pancrease.png"
+                arImageUrl="/pancreas_qr.png"
             />
-            <div className="section-divider" />
+
+            <div className="section-divider" /> */}
 
             <BodySection
-                title="Lungs - Respiratory System"
+                title="Stomach - Digestive System"
                 description={
                     <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
-                    </>
-                }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
-            />
-            <div className="section-divider" />
+                        <h3>The Stomach</h3>
 
-            <BodySection
-                title="Lungs - Respiratory System"
-                description={
-                    <>
-                        <h3>The Lungs</h3>
-                        <p>The heart is a muscular organ found in humans and other animals. This organ pumps blood through the blood vessels.[1] The heart and blood vessels together make up the circulatory system.[2] The pumped blood carries oxygen and nutrients to the tissue, while carrying metabolic waste such as carbon dioxide to the lungs.[3] In humans, the heart is approximately the size of a closed fist and is located between the lungs, in the middle compartment of the chest, called the mediastinum.[4] In humans, the heart is divided into four chambers: upper left and right atria and lower left and right ventricles.[5][6] Commonly, the right atrium and ventricle are referred together as the right heart and their left counterparts as the left heart.[7] In a healthy heart, blood flows one way through the heart due to heart valves, which prevent backflow.[4] The heart is enclosed in a protective sac, the pericardium, which also contains a small amount of fluid. The wall of the heart is made up of three layers: epicardium, myocardium, and endocardium.[8] The heart pumps blood with a rhythm determined by a group of pacemaker cells in the sinoatrial node. These generate an electric current that causes the heart to contract, traveling through the atrioventricular node and along the conduction system of the heart. In humans, deoxygenated blood enters the heart through the right atrium from the superior and inferior venae cavae and passes to the right ventricle. From here, it is pumped into pulmonary circulation to the lungs, where it receives oxygen and gives off carbon dioxide. Oxygenated blood then returns to the left atrium, passes through the left ventricle and is pumped out through the aorta into systemic circulation, traveling through arteries, arterioles, and capillaries—where nutrients and other substances are exchanged between blood vessels and cells, losing oxygen and gaining carbon dioxide—before being returned to the heart through venules and veins.[9] The adult heart beats at a resting rate close to 72 beats per minute.[10]</p>
-                        <p>Their principal function is to transport oxygen from the atmosphere into the bloodstream, and to release carbon dioxide from the bloodstream into the atmosphere.</p>
+                        <p>
+                            The stomach is a muscular, J-shaped organ located in the upper left part
+                            of the abdominal cavity, between the esophagus and the small intestine.
+                            It plays a major role in the mechanical and chemical digestion of food.
+                        </p>
+
+                        <p>
+                            The stomach temporarily stores food after swallowing and mixes it with
+                            gastric juices to form a semi-liquid substance called chyme. It acts as
+                            a bridge between the esophagus and the duodenum (first part of the small intestine).
+                        </p>
+
+                        <h3>Structure</h3>
+
+                        <p>
+                            The stomach is divided into four main regions:
+                        </p>
+
+                        <ul>
+                            <li>Cardia – receives food from the esophagus</li>
+                            <li>Fundus – upper curved portion</li>
+                            <li>Body – main central region</li>
+                            <li>Pylorus – connects to the small intestine</li>
+                        </ul>
+
+                        <p>
+                            The inner lining of the stomach contains gastric glands that produce
+                            hydrochloric acid (HCl), mucus, and digestive enzymes such as pepsin.
+                        </p>
+
+                        <h3>Functions</h3>
+
+                        <ul>
+                            <li>Stores food temporarily</li>
+                            <li>Performs mechanical digestion by muscular contractions</li>
+                            <li>Secretes hydrochloric acid to kill harmful bacteria</li>
+                            <li>Breaks down proteins using the enzyme pepsin</li>
+                            <li>Converts food into chyme for further digestion</li>
+                            <li>Regulates the release of food into the small intestine</li>
+                        </ul>
+
+                        <p>
+                            The stomach protects itself from acid damage by secreting mucus,
+                            which forms a protective barrier on its inner lining.
+                        </p>
                     </>
                 }
-                diagramUrl="/heart.jpg"
-                arImageUrl="/heart.jpg"
+                diagramUrl="/stomach.png"
+                arImageUrl="/stomach_qr.png"
             />
         </>
     );
