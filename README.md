@@ -1,59 +1,31 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # VICSTA Hackathon – Grand Finale
-**VIT College, Kondhwa Campus | 5th – 6th March**
+VIT College, Kondhwa Campus | 5th – 6th March
 
 ---
 
 ## Team Details
 
-- **Team Name:**
-- **Members:**
-- **Domain:**
+- Team Name: Vertices
+- Members: Anshi, Pratik, Om, Divya
+- Domain: Multisource StudyHub
 
 ---
 
 ## Project
 
-**Problem:** 
+**Problem:**  
+Medical students often find it difficult to understand human anatomy using traditional 2D textbooks and images. These methods do not clearly show the 3D structure and relationships between organs. Also, physical anatomy labs and models are expensive and not easily accessible for many students.
 
-**Solution:** 
-
----
-
-## Rules to Remember
-
-- All development must happen **during** the hackathon only
-- Push code **regularly** — commit history is monitored
-- Use only open-source libraries with compatible licenses and **credit them**
-- Only **one submission** per team
-- All members must be present **both days**
+**Solution:**  
+Our project provides a web-based AR anatomy learning platform where students can view and interact with 3D models of human organs directly in their browser. Users can rotate, zoom, and explore anatomical structures, making learning more interactive, accessible, and effective without installing any app.
 
 ---
 
 ## Attribution
 
-List any external libraries, APIs, or datasets used here.
+External tools used:
+- MyWebAR (for augmented reality models implementation)
 
 ---
 
-> *"The world is not enough — but it is such a perfect place to start."* — James Bond
->
-> All the best to every team. Build something great. 🚀
->>>>>>> 4f777fe2bcdd5fe26a1d87af2d7d1f9017dfcc31
+"The world is not enough — but it is such a perfect place to start." — James Bond
