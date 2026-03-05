@@ -141,8 +141,8 @@ function Home() {
 
                     <div className="hero-mini-cards">
                         <div className="mini-card">
-                            <div className="mini-num">11+</div>
-                            <div className="mini-lbl">Body Systems</div>
+                            <div className="mini-num">8+</div>
+                            <div className="mini-lbl">Body Organ Models</div>
                         </div>
                         <div className="mini-card">
                             <div className="mini-num">3D</div>
@@ -153,7 +153,7 @@ function Home() {
                             <div className="mini-lbl">Apps to Install</div>
                         </div>
                         <div className="mini-card">
-                            <div className="mini-num">8</div>
+                            <div className="mini-num">9</div>
                             <div className="mini-lbl">AR Modules</div>
                         </div>
                     </div>
