@@ -208,7 +208,7 @@ function Home() {
             <section id="cta">
                 <h2>Ready to see<br />inside the body?</h2>
                 <p>No app store. No download. Just open your browser and explore.</p>
-                <Link to="/learning" className="btn-white">
+                <Link to="/body-system" className="btn-white">
                     Launch AR Experience
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                         <path d="M5 12h14M12 5l7 7-7 7" />

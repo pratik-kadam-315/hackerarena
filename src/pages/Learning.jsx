@@ -236,63 +236,54 @@ function Learning() {
                 <div className="section-divider" />
 
                 <BodySection
-                    id="lungs"
-                    title="Lungs - Respiratory System"
+                    id="liver"
+                    title="Liver - Digestive System"
                     description={
                         <>
                             <h3>Overview</h3>
+
                             <p>
-                                The lungs are paired respiratory organs located in the thoracic cavity,
-                                protected by the rib cage and separated from the abdominal cavity by
-                                the diaphragm. They are the primary organs of the respiratory system
-                                and are responsible for the exchange of gases between the external
-                                environment and the bloodstream.
+                                The liver is the largest internal organ and one of the most vital organs
+                                in the human body. It is located in the upper right quadrant of the
+                                abdominal cavity, just below the diaphragm. The liver plays a central
+                                role in metabolism, detoxification, digestion, and nutrient storage.
                             </p>
 
                             <p>
-                                Air enters through the nasal cavity, passes through the pharynx,
-                                larynx, and trachea, and then moves into the right and left bronchi.
-                                These bronchi divide into smaller bronchioles that end in microscopic
-                                air sacs called alveoli. The alveoli are the functional units of the
-                                lungs and provide a large surface area for efficient gas exchange.
+                                The liver is divided into right and left lobes and is composed of
+                                functional units called lobules. It receives blood from two major
+                                sources: the hepatic artery (oxygenated blood) and the portal vein
+                                (nutrient-rich blood from the digestive tract).
                             </p>
 
                             <p>
-                                Each lung is covered by a double-layered membrane called the pleura,
-                                which reduces friction during breathing movements. The right lung
-                                consists of three lobes (superior, middle, and inferior), while the
-                                left lung has two lobes to accommodate the heart.
+                                One of the liver’s key functions is the production of bile, a substance
+                                that helps in the digestion and absorption of fats in the small intestine.
+                                The liver also processes carbohydrates, proteins, and lipids, converting
+                                them into usable forms for the body.
                             </p>
 
                             <p>
-                                Gas exchange occurs through diffusion. Oxygen moves from the alveoli
-                                into surrounding capillaries, while carbon dioxide moves from the
-                                bloodstream into the alveoli to be exhaled. This process helps maintain
-                                proper oxygen levels and regulates blood pH.
-                            </p>
-
-                            <p>
-                                Breathing is facilitated by the diaphragm and intercostal muscles.
-                                During inhalation, the diaphragm contracts and moves downward,
-                                increasing thoracic volume and allowing air to enter the lungs.
-                                During exhalation, the diaphragm relaxes, decreasing thoracic volume
-                                and pushing air out.
+                                In addition, the liver detoxifies harmful substances, metabolizes drugs,
+                                stores vitamins (A, D, E, K, and B12), and regulates blood glucose levels
+                                by storing and releasing glycogen as needed.
                             </p>
 
                             <h3>Functions</h3>
                             <ul>
-                                <li>Oxygenates the blood</li>
-                                <li>Removes carbon dioxide</li>
-                                <li>Maintains acid-base balance</li>
-                                <li>Supports speech production</li>
-                                <li>Provides immune defense</li>
-                                <li>Filters small blood clots and air bubbles</li>
-                                <li>Helps regulate body temperature</li>
+                                <li>Produces bile for fat digestion</li>
+                                <li>Detoxifies harmful substances and drugs</li>
+                                <li>Regulates blood glucose levels</li>
+                                <li>Stores vitamins and minerals</li>
+                                <li>Metabolizes carbohydrates, proteins, and fats</li>
+                                <li>Produces important plasma proteins (e.g., albumin)</li>
+                                <li>Breaks down old red blood cells</li>
+                                <li>Supports immune function</li>
                             </ul>
                         </>
                     }
-                    diagramUrl="/lungs.png"
-                    arImageUrl="/eyeqr.png"
+                    diagramUrl="/liver.png"
+                    arImageUrl="/liver_qr.png"
                 />
                 <div className="section-divider" />
 
@@ -349,6 +340,68 @@ function Learning() {
                     diagramUrl="/intestine.jpeg"
                     arImageUrl="/intestine_qr.png"
                 />
+                <div className="section-divider" />
+
+                <BodySection
+                    id="lungs"
+                    title="Lungs - Respiratory System"
+                    description={
+                        <>
+                            <h3>Overview</h3>
+                            <p>
+                                The lungs are paired respiratory organs located in the thoracic cavity,
+                                protected by the rib cage and separated from the abdominal cavity by
+                                the diaphragm. They are the primary organs of the respiratory system
+                                and are responsible for the exchange of gases between the external
+                                environment and the bloodstream.
+                            </p>
+
+                            <p>
+                                Air enters through the nasal cavity, passes through the pharynx,
+                                larynx, and trachea, and then moves into the right and left bronchi.
+                                These bronchi divide into smaller bronchioles that end in microscopic
+                                air sacs called alveoli. The alveoli are the functional units of the
+                                lungs and provide a large surface area for efficient gas exchange.
+                            </p>
+
+                            <p>
+                                Each lung is covered by a double-layered membrane called the pleura,
+                                which reduces friction during breathing movements. The right lung
+                                consists of three lobes (superior, middle, and inferior), while the
+                                left lung has two lobes to accommodate the heart.
+                            </p>
+
+                            <p>
+                                Gas exchange occurs through diffusion. Oxygen moves from the alveoli
+                                into surrounding capillaries, while carbon dioxide moves from the
+                                bloodstream into the alveoli to be exhaled. This process helps maintain
+                                proper oxygen levels and regulates blood pH.
+                            </p>
+
+                            <p>
+                                Breathing is facilitated by the diaphragm and intercostal muscles.
+                                During inhalation, the diaphragm contracts and moves downward,
+                                increasing thoracic volume and allowing air to enter the lungs.
+                                During exhalation, the diaphragm relaxes, decreasing thoracic volume
+                                and pushing air out.
+                            </p>
+
+                            <h3>Functions</h3>
+                            <ul>
+                                <li>Oxygenates the blood</li>
+                                <li>Removes carbon dioxide</li>
+                                <li>Maintains acid-base balance</li>
+                                <li>Supports speech production</li>
+                                <li>Provides immune defense</li>
+                                <li>Filters small blood clots and air bubbles</li>
+                                <li>Helps regulate body temperature</li>
+                            </ul>
+                        </>
+                    }
+                    diagramUrl="/lungs.png"
+                    arImageUrl="/lungs_qr.png"
+                />
+
                 <div className="section-divider" />
 
                 <BodySection
@@ -459,58 +512,7 @@ function Learning() {
                     diagramUrl="/brain.png"
                     arImageUrl="/brain_qr.png"
                 />
-                <div className="section-divider" />
 
-                <BodySection
-                    id="liver"
-                    title="Liver - Digestive System"
-                    description={
-                        <>
-                            <h3>Overview</h3>
-
-                            <p>
-                                The liver is the largest internal organ and one of the most vital organs
-                                in the human body. It is located in the upper right quadrant of the
-                                abdominal cavity, just below the diaphragm. The liver plays a central
-                                role in metabolism, detoxification, digestion, and nutrient storage.
-                            </p>
-
-                            <p>
-                                The liver is divided into right and left lobes and is composed of
-                                functional units called lobules. It receives blood from two major
-                                sources: the hepatic artery (oxygenated blood) and the portal vein
-                                (nutrient-rich blood from the digestive tract).
-                            </p>
-
-                            <p>
-                                One of the liver’s key functions is the production of bile, a substance
-                                that helps in the digestion and absorption of fats in the small intestine.
-                                The liver also processes carbohydrates, proteins, and lipids, converting
-                                them into usable forms for the body.
-                            </p>
-
-                            <p>
-                                In addition, the liver detoxifies harmful substances, metabolizes drugs,
-                                stores vitamins (A, D, E, K, and B12), and regulates blood glucose levels
-                                by storing and releasing glycogen as needed.
-                            </p>
-
-                            <h3>Functions</h3>
-                            <ul>
-                                <li>Produces bile for fat digestion</li>
-                                <li>Detoxifies harmful substances and drugs</li>
-                                <li>Regulates blood glucose levels</li>
-                                <li>Stores vitamins and minerals</li>
-                                <li>Metabolizes carbohydrates, proteins, and fats</li>
-                                <li>Produces important plasma proteins (e.g., albumin)</li>
-                                <li>Breaks down old red blood cells</li>
-                                <li>Supports immune function</li>
-                            </ul>
-                        </>
-                    }
-                    diagramUrl="/liver.png"
-                    arImageUrl="/liver_qr.png"
-                />
                 <div className="section-divider" />
 
                 <BodySection

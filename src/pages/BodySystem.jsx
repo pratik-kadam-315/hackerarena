@@ -54,13 +54,13 @@ function BodySystem() {
     const hotspots = [
         { name: "Heart", class: "heart", qr: "/heart_Qr.jpeg" },
         { name: "Brain", class: "brain", qr: "/brain_qr.png" },
-        { name: "Lungs", class: "lungs", qr: "/eyeqr.png" }, // Using eyeqr as placeholder for lungs per Learning.jsx pattern
+        { name: "Lungs", class: "lungs", qr: "/lungs_qr.png" }, // Using eyeqr as placeholder for lungs per Learning.jsx pattern
         { name: "Liver", class: "liver", qr: "/liver_qr.png" },
         { name: "Stomach", class: "stomach", qr: "/stomach_qr.png" },
         { name: "Pancreas", class: "pancreas", qr: "/pancreas_qr.png" },
         { name: "Kidney", class: "kidney", qr: "/kidney_qr.png" },
         { name: "Intestines", class: "intestines", qr: "/intestine_qr.png" },
-        { name: "Spleen", class: "spleen", qr: "/kidney_qr.png" }, // Fallback per user snippet
+        { name: "Spleen", class: "spleen", qr: "/spleen.jpeg" }, // Fallback per user snippet
     ];
 
     return (
